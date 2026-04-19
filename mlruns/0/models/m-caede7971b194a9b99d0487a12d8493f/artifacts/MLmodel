@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/ANIKET/machinelearning_projects/endtoend/mlruns/0/models/m-caede7971b194a9b99d0487a12d8493f/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.11.1
+model_id: m-caede7971b194a9b99d0487a12d8493f
+model_size_bytes: 723
+model_uuid: m-caede7971b194a9b99d0487a12d8493f
+prompts: null
+run_id: 820046c533844bffbca92cfe59d94126
+utc_time_created: '2026-04-19 05:03:41.219391'

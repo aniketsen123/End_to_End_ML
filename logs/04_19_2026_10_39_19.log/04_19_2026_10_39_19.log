@@ -1,0 +1,20 @@
+[ 2026-04-19 10:39:31,255 ] 9 root - INFO - The Execution started
+[ 2026-04-19 10:39:31,256 ] 20 root - INFO - Reading SQL database started
+[ 2026-04-19 10:39:31,736 ] 26 root - INFO - Reading from db
+[ 2026-04-19 10:39:31,764 ] 32 root - INFO - Data Ingestion is completed
+[ 2026-04-19 10:39:31,774 ] 64 root - INFO - Reading the train and test data
+[ 2026-04-19 10:39:31,775 ] 46 root - INFO - Categorical Columns:['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+[ 2026-04-19 10:39:31,775 ] 47 root - INFO - Numerical Columns:['writing_score', 'reading_score']
+[ 2026-04-19 10:39:31,777 ] 76 root - INFO - Applying Preprocessing on training and test dataframe
+[ 2026-04-19 10:39:31,811 ] 85 root - INFO - Saved preprocessing object
+[ 2026-04-19 10:39:31,817 ] 42 root - INFO - Split training and test input data
+[ 2026-04-19 10:41:11,580 ] 74 dagshub.auth.tokens - INFO - Removed expired tokens from the token cache
+[ 2026-04-19 10:41:16,538 ] 1025 httpx - INFO - HTTP Request: POST https://dagshub.com/login/oauth/middleman "HTTP/1.1 200 OK"
+[ 2026-04-19 10:41:17,725 ] 1025 httpx - INFO - HTTP Request: POST https://dagshub.com/login/oauth/access_token "HTTP/1.1 200 OK"
+[ 2026-04-19 10:41:19,304 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2026-04-19 10:41:19,315 ] 107 dagshub - INFO - Accessing as aniketsen123
+[ 2026-04-19 10:41:20,979 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/aniketsen123/End_to_End_ML "HTTP/1.1 200 OK"
+[ 2026-04-19 10:41:22,402 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2026-04-19 10:41:22,411 ] 107 dagshub - INFO - Initialized MLflow to track repo "aniketsen123/End_to_End_ML"
+[ 2026-04-19 10:41:22,412 ] 107 dagshub - INFO - Repository aniketsen123/End_to_End_ML initialized!
+[ 2026-04-19 10:41:48,406 ] 153 root - INFO - Best found model on both training and testing dataset
